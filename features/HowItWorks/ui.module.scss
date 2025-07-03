@@ -1,0 +1,62 @@
+.howItWork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 2.5rem;
+  height: 3.75rem;
+  color: #252525;
+}
+
+.text {
+  color: #797484;
+  font-size: 1rem;
+  min-width: 18.75rem;
+  margin-bottom: 37px;
+
+  @media (max-width: 400px) {
+    min-width: auto;
+  }
+}
+
+.stepsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.step {
+  padding: 25px 30px;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.stepContent {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.stepTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: #797484;
+  line-height: 1.5;
+}
