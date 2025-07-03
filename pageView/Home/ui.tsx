@@ -1,14 +1,16 @@
-import Image from "next/image";
-import styles from "./ui.module.scss";
+// import Image from "next/image";
+// import styles from "./ui.module.scss";
 
 import { PageWrapper } from "@/shared/PageWrapper";
 import { TextToImage } from "../TextToImage/ui";
+import { HowItWork } from "@/features/HowItWorks";
 
 export const HomePage = () => {
   return (
     <>
       <PageWrapper>
         <TextToImage />
+        <HowItWork />
 
         {/* <section className={styles.contianer}>
           <h2>How it works</h2>

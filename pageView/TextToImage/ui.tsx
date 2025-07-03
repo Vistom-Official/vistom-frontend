@@ -14,7 +14,8 @@ export const TextToImage = () => {
         Turn text to <br /> <span>image</span>, in seconds.
       </h1>
       <div className={styles.description}>
-        Unleash your creativity with AI. Turn your imagination into visual art
+        Unleash your creativity with AI. Turn your imagination into visual art{" "}
+        <br />
         in seconds – just type, and watch the magic happen.
       </div>
       <Button className={styles.gnrBtn}>Generate Images ✨</Button>
@@ -25,4 +26,3 @@ export const TextToImage = () => {
     </section>
   );
 };
- 
