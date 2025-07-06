@@ -4,7 +4,7 @@ import { Reviews } from "../Reviews";
 import { TextToImage } from "../TextToImage";
 import { PageWrapper } from "@/shared/PageWrapper";
 import { Button } from "@/components/ui/button";
-import { Footer } from "@/widgets/Footer/ui";
+import { Footer } from "@/widgets/Footer";
 
 export const HomePage = () => {
   return (
@@ -17,7 +17,7 @@ export const HomePage = () => {
           <h3 className={styles.title}>See the magic. Try now</h3>
           <Button className={styles.gnrBtn}>Generate Images ✨</Button>
         </section>
-        <Footer/>
+        <Footer />
       </PageWrapper>
     </>
   );
