@@ -39,7 +39,7 @@ const review: Review[] = [
   },
 ];
 
-export const Reviews: React.FC = () => {
+export const ReviewsPage: React.FC = () => {
   return (
     <section className={styles.reviews}>
       <h2 className={styles.title}>Customer testimonials</h2>

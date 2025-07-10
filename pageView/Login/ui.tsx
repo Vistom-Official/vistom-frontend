@@ -1,10 +1,11 @@
-import { Button } from "@/components/ui/button";
-import React from "react";
+import { LoginForm } from "@/widgets/LoginForm";
 import styles from "./ui.module.scss";
-export const Login = () => {
+import { PageWrapper } from "@/shared/PageWrapper";
+
+export const LoginPage = () => {
   return (
-    <>
-      <Button className={styles.loginBtn}>Login</Button>
-    </>
+    <PageWrapper>
+      <LoginForm />
+    </PageWrapper>
   );
 };

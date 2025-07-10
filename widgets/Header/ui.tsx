@@ -1,8 +1,13 @@
 import React from "react";
 import styles from "./ui.module.scss";
-import { LoginForm } from "../LoginForm";
+
 import { PricePage } from "@/pageView/Price";
-import { Logo } from "@/shared/Logo";
+
+import Link from "next/link";
+import { ROUTES } from "@/shared/common/routes";
+import { Logo } from "@/shared/Logo/ui";
+
+
 
 export const Header = () => {
   return (
@@ -11,7 +16,7 @@ export const Header = () => {
         <Logo />
         <div className={styles.rightSide}>
           <PricePage />
-          <LoginForm />
+          <Link href={ROUTES.LOGIN}>Login</Link>
         </div>
       </div>
     </header>

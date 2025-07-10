@@ -1,0 +1,107 @@
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  max-width: 420px;
+  gap: 1.25rem;
+  padding: 2.5rem 2rem;
+}
+
+.loginForm h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 28px;
+  margin: 0;
+}
+
+.loginForm p {
+  text-align: center;
+  font-size: 14px;
+  color: #575b86;
+  margin: 0;
+}
+
+.loginForm input {
+  width: 100%;
+  padding: 16px 32px;
+  font-size: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.loginForm input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 6px rgba(59, 130, 246, 0.5);
+  outline: none;
+}
+
+.loginBtn {
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  background: #007aff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loginBtn:hover,
+.loginBtn:focus {
+  background-color: #005fcc;
+  outline: none;
+}
+
+.forgotWrapper {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  width: 100%;
+}
+
+.forgotBtn {
+  color: #007aff;
+  font-size: 14px;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.forgotBtn:hover,
+.forgotBtn:focus {
+  color: #005fcc;
+  outline: none;
+}
+
+.link {
+  border-bottom: 1px solid #007aff;
+  color: #007aff;
+  font-size: 15px;
+  text-decoration: none;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.link:hover,
+.link:focus {
+  color: #005fcc;
+  border-bottom-color: #005fcc;
+  outline: none;
+}
+
+.signUp {
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .loginForm {
+    padding: 2rem 1rem;
+    max-width: 100%;
+  }
+
+  .loginBtn {
+    width: 100%;
+  }
+}
