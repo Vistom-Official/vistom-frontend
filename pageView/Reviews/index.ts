@@ -1,1 +1,1 @@
-export { Reviews } from "./ui";
+export { ReviewsPage } from "./ui";
