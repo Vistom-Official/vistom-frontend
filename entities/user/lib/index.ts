@@ -1,0 +1,1 @@
+export { userFormConfig } from "./config";
