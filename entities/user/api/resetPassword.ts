@@ -2,7 +2,7 @@ import { fetchClient } from "@/shared/config/fetchClient";
 
 export const resetPassword = async (data: { id: string; password: string }) => {
   return await fetchClient("/api/user/reset-password", {
-    method: "POST",
+    method: "PUT",
     body: JSON.stringify({
       ...data,
     }),

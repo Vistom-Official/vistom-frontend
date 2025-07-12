@@ -1,4 +1,4 @@
-import { PageWrapper } from "@/shared/PageWrapper";
+import { PageWrapper } from "@/shared/ui/PageWrapper";
 import { ROUTES } from "@/shared/common/routes";
 import Link from "next/link";
 

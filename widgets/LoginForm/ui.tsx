@@ -2,10 +2,11 @@
 
 import { Button } from "@/components/ui/button";
 import { ROUTES } from "@/shared/common/routes";
-import { PageWrapper } from "@/shared/PageWrapper";
-import { TextField } from "@/shared/TextField";
+import { PageWrapper } from "@/shared/ui/PageWrapper";
+
 import styles from "./ui.module.scss";
 import Link from "next/link";
+import { TextField } from "@/shared/ui/TextField";
 
 export const LoginForm = () => {
   return (

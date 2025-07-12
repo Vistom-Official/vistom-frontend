@@ -5,7 +5,7 @@ import { PricePage } from "@/pageView/Price";
 
 import Link from "next/link";
 import { ROUTES } from "@/shared/common/routes";
-import { Logo } from "@/shared/Logo/ui";
+import { Logo } from "@/shared/ui/Logo/ui";
 
 
 

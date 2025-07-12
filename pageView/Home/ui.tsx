@@ -2,7 +2,7 @@ import styles from "./ui.module.scss";
 import { HowItWork } from "@/features/HowItWorks";
 import { ReviewsPage } from "../Reviews";
 import { TextToImage } from "../TextToImage";
-import { PageWrapper } from "@/shared/PageWrapper";
+import { PageWrapper } from "@/shared/ui/PageWrapper";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/widgets/Footer";
 

@@ -1,4 +1,4 @@
-import { PageWrapper } from "@/shared/PageWrapper";
+import { PageWrapper } from "@/shared/ui/PageWrapper";
 import { ForgotPasswordForm } from "@/widgets/ForgotPasswordForm";
 
 export const ForgotPasswordPage = () => {

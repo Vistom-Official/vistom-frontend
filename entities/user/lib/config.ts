@@ -4,6 +4,6 @@ export const userFormConfig = {
     max: 30,
   },
   password: {
-    min: 6,
+    min: 8,
   },
 };
