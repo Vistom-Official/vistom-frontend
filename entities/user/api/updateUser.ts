@@ -3,7 +3,7 @@ import { TUser } from "../model";
 
 export const updateUser = async (data: TUser) => {
   return await fetchClient("/api/user/update", {
-    method: "POST",
+    method: "PUT",
     body: JSON.stringify({
       ...data,
     }),

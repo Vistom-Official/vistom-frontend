@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./ui.module.scss";
 import Link from "next/link";
 import Image from "next/image";
-import { Logo } from "@/shared/Logo";
+import { Logo } from "@/shared/ui/Logo";
 
 const socialLinks = [
   {

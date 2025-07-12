@@ -1,6 +1,6 @@
 import { LoginForm } from "@/widgets/LoginForm";
 import styles from "./ui.module.scss";
-import { PageWrapper } from "@/shared/PageWrapper";
+import { PageWrapper } from "@/shared/ui/PageWrapper";
 
 export const LoginPage = () => {
   return (
