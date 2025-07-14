@@ -1,7 +1,7 @@
 
 
-export const authOptions = {
-providers: [
+// export const authOptions = {
+// providers: [
      
-]
-}
+// ]
+// }

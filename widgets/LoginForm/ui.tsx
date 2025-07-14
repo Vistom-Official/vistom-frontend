@@ -2,23 +2,22 @@
 
 import { Button } from "@/components/ui/button";
 import { ROUTES } from "@/shared/common/routes";
-import { PageWrapper } from "@/shared/ui/PageWrapper";
 
 import styles from "./ui.module.scss";
 import Link from "next/link";
 import { TextField } from "@/shared/ui/TextField";
+import { FormWrapper } from "@/shared/ui/FormWrapper";
 
 export const LoginForm = () => {
   return (
-    <PageWrapper>
+    <FormWrapper>
       <form className={styles.loginForm}>
-        <h2 className={styles.title}>Login</h2>
-        <p>Welcome back! Please sign in to continue</p>
+        <h2 className={styles.title}>Please login</h2>
         <TextField
           required
           name="email"
           type="email"
-          value=""
+          // value=""
           placeholder="Enter your email"
         />
 
@@ -29,17 +28,18 @@ export const LoginForm = () => {
           value=""
           placeholder="Enter your password"
         />
+
+        <Button className={styles.loginBtn}>Login</Button>
         <Link href={ROUTES.FORGOT_PASSWORD} className={styles.forgotBtn}>
           Forgot password?
         </Link>
-        <Button className={styles.loginBtn}>Login</Button>
         <div className={styles.signUp}>
           Don’t have an account?
-          <Link className={styles.link} href={"/"}>
-            Sign up
+          <Link className={styles.link} href={ROUTES.REGISTER}>
+            Registration
           </Link>
         </div>
       </form>
-    </PageWrapper>
+    </FormWrapper>
   );
 };

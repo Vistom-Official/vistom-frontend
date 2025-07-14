@@ -1,5 +1,5 @@
 import styles from "./ui.module.scss";
-import { HowItWork } from "@/features/HowItWorks";
+import { HowItWork } from "@/pageView/HowItWorks";
 import { ReviewsPage } from "../Reviews";
 import { TextToImage } from "../TextToImage";
 import { PageWrapper } from "@/shared/ui/PageWrapper";

@@ -15,4 +15,5 @@ export type TCommonTextFieldProps = {
   placeholder?: string;
   capitalize?: boolean;
   onChange?: (value: string) => void;
+
 };
