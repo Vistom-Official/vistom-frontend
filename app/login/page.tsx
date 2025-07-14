@@ -1,5 +1,5 @@
 import { LoginPage } from "@/pageView/Login";
 
-export default function NotFound() {
+export default function Login() {
   return <LoginPage />;
 }
