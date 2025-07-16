@@ -17,7 +17,6 @@ export const LoginForm = () => {
           required
           name="email"
           type="email"
-          // value=""
           placeholder="Enter your email"
         />
 

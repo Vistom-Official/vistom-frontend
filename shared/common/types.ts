@@ -3,8 +3,8 @@ export type TCommonPageProps = {
 };
 
 export type TCommonTextFieldProps = {
-  min?: string;
-  max?: string;
+  min?: string | number | undefined;
+  max?: string | number | undefined;
   name: string;
   type?: string;
   value?: string;
@@ -14,6 +14,8 @@ export type TCommonTextFieldProps = {
   required?: boolean;
   placeholder?: string;
   capitalize?: boolean;
-  onChange?: (value: string) => void;
-
+  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  // onChange?:
+    //  | ((e: React.ChangeEvent<HTMLInputElement>) => void)  // обробник події
+      //| ((value: string) => void);
 };

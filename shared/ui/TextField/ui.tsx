@@ -13,7 +13,7 @@ export const TextField = (props: TCommonTextFieldProps) => {
         max={props.max}
         name={props.name}
         value={props.value}
-        onChange={(e) => props.onChange?.(e.target.value)}
+        onChange={props.onChange}
         required={props.required}
         disabled={props.disabled}
         minLength={props.minLength}
