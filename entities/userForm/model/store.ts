@@ -14,5 +14,6 @@ export const useUserFormStore = create<TUserFormStore>()((set, get) => ({
   setPassword: (value) => set(() => ({ password: value })),
   setData: (data) => set(() => ({ ...data })),
   reset: () => set(() => ({ ...initialState })),
+
   ...RootStore(get),
 }));

@@ -16,7 +16,7 @@ export const Header = () => {
         <Logo />
         <div className={styles.rightSide}>
           <PricePage />
-          <Link href={ROUTES.LOGIN}>Login</Link>
+          <Link href={ROUTES.LOGIN} className={styles.loginText} >Login</Link>
         </div>
       </div>
     </header>

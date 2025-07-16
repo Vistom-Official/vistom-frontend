@@ -1,6 +1,7 @@
 import { TUser } from "@/entities/user/model";
 
 export type TUserFormValues = Omit<TUser, "id"> & {
+  email: string;
   password: string;
 };
 
